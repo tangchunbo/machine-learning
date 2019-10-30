@@ -9,7 +9,12 @@ image = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE)
 m, n = image.shape
 
 # 原本L应该时一个对称矩阵，此时则将对称矩阵的对角线元素以一维数组形式输出
+# P (m, m)
+# L (m,)
+# Q (n, n)
 P, L, Q = np.linalg.svd(image)
+print(P.shape)
+print(Q.shape)
 # L为800的一位数组，使用diag()输出以L为对角线的矩阵
 tmp = np.diag(L)
 if m < n:
