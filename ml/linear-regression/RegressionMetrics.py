@@ -4,6 +4,8 @@ from sklearn import datasets
 from SimpleLinearRegression1 import SimpleLinearRegression2
 from model_selection import train_test_split
 from math import sqrt
+# scikit-learn 中的指标
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 # boston 房产
 boston = datasets.load_boston()
@@ -52,9 +54,6 @@ print(rmse_test)
 mae_test = np.sum(np.absolute(y_test - y_predict)) / len(y_test)
 print(mae_test)
 
-
-# scikit-learn 中的指标
-from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 sk_mse_test = mean_squared_error(y_test, y_predict)
 print(sk_mse_test)
