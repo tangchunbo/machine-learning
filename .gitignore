@@ -2,3 +2,5 @@
 ml/*/.ipynb_checkpoints/
 ml/linearRegression/__pycache__/
 /ml/data/
+ml/basic/__pycache__/
+ml/knn/__pycache__/
