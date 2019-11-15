@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="69">
+          <list size="81">
             <item index="0" class="java.lang.String" itemvalue="traitlets" />
             <item index="1" class="java.lang.String" itemvalue="tensorflow-estimator" />
             <item index="2" class="java.lang.String" itemvalue="tzlocal" />
@@ -74,6 +74,18 @@
             <item index="66" class="java.lang.String" itemvalue="cmake" />
             <item index="67" class="java.lang.String" itemvalue="pytz" />
             <item index="68" class="java.lang.String" itemvalue="Pillow" />
+            <item index="69" class="java.lang.String" itemvalue="google-pasta" />
+            <item index="70" class="java.lang.String" itemvalue="joblib" />
+            <item index="71" class="java.lang.String" itemvalue="opt-einsum" />
+            <item index="72" class="java.lang.String" itemvalue="ptyprocess" />
+            <item index="73" class="java.lang.String" itemvalue="zipp" />
+            <item index="74" class="java.lang.String" itemvalue="more-itertools" />
+            <item index="75" class="java.lang.String" itemvalue="pi" />
+            <item index="76" class="java.lang.String" itemvalue="you-get" />
+            <item index="77" class="java.lang.String" itemvalue="pexpect" />
+            <item index="78" class="java.lang.String" itemvalue="torchvision" />
+            <item index="79" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="80" class="java.lang.String" itemvalue="appnope" />
           </list>
         </value>
       </option>
