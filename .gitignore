@@ -8,3 +8,5 @@ ml/knn/__pycache__/
 /data/
 /__pycache__/
 dl/dive-into-dl/d2lzh_pytorch/__pycache__/utils.cpython-36.pyc
+/test/
+.ipynb_checkpoints
