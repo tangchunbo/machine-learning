@@ -3,5 +3,5 @@
 /data/
 /__pycache__/
 /test/
-.ipynb_checkpoints
+.ipynb_checkpoints/
 __pycache__
