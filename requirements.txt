@@ -45,7 +45,7 @@ more-itertools==7.2.0
 nbconvert==5.6.1
 nbformat==4.4.0
 networkx==2.4
-nltk==3.4
+nltk>=3.4.5
 notebook==6.0.1
 numpy==1.16.2
 opencv-python==4.1.1.26
@@ -96,7 +96,7 @@ tzlocal==2.0.0
 urllib3==1.25.7
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.14.1
+Werkzeug==0.16.0
 widgetsnbextension==3.5.1
 wrapt==1.11.2
 you-get==0.4.1270
